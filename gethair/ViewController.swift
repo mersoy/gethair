@@ -14,8 +14,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate ,UINaviga
     @IBOutlet weak var sendButton: UIBarButtonItem!
     @IBOutlet weak var infoText: UITextView!
     @IBOutlet weak var imageView: UIImageView!
-  
-    @IBOutlet weak var applyBlur: UIButton!
+      @IBOutlet weak var applyBlur: UIButton!
     @IBOutlet weak var blurImageView: UIImageView!
     var lastTouchPosition : CGPoint?
 
@@ -23,8 +22,6 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate ,UINaviga
         blurImageView.hidden = true
         applyBlur.enabled = false
         sendButton.enabled = false
-
-
     }
 
     @IBAction func applyBlur(sender: AnyObject) {
